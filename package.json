@@ -1,0 +1,24 @@
+{
+  "name": "card-to-csv-scanner",
+  "version": "0.1.0",
+  "description": "Batch process business card images and extract contacts into CSV using Gemini",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.31.0",
+    "@google/generative-ai": "^0.24.1",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^17.2.3"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "shadcn": "^3.6.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
